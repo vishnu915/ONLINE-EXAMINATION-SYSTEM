@@ -9,8 +9,8 @@ app = Flask(__name__)
 # MySQL configurations
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Sandeep'
-app.config['MYSQL_DB'] = 'E_xam'
+app.config['MYSQL_PASSWORD'] = 'vishnu@123'
+app.config['MYSQL_DB'] = 'online_exam_system'
 app.config['SECRET_KEY'] = 'E_xam'
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
